@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(twinkle.gif);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+    height: 100vh;
+}
+.container{
+    padding: 10px;
+    height: 100vh;
+}
+.rectangle {
+    height: 125px;
+    width: 700px;
+    background-image: url(wes\ anderson.jpg);
+    background-position: right;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 35%;
+    bottom: 87%;
+    z-index: 1;
+}
+.rectangle2 {
+    height: 125px;
+    background-image: url(quin.jpg);
+    background-size: cover;
+    width: 700px;
+    left: 30%;
+    background-position: center;
+    border-radius: 10px;
+    bottom: 74%;
+    position: absolute;
+}
+.rectangle3 {
+    height: 125px;
+    width: 700px;
+    background-image: url(sophia.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 62%;
+    border-radius: 10px;
+    left: 33%
+    
+
+}
+.rectangle4 {
+    height: 125px;
+    width: 700px;
+    position: absolute;
+    background-image: url(stanle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 49%;
+    border-radius: 10px;
+    left: 31%;
+}
+.rectangle5 {
+    height: 125px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(cohen\ bros.jpg);
+    background-color: rgb(206, 96, 184);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 36%;
+    left: 30%;
+}
+
+
+.rectangle7 {
+    height: 125px;
+    width: 700px;
+    background-image: url(francis.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(229, 61, 28);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 23%;
+    left: 34%;
+}
+.rectangle8 {
+    height: 125px;
+    width: 700px;
+    background-color: rgb(62, 5, 84);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 10%;
+    left: 32%;
+}
+.rectangle9 {
+    height: 125px;
+    width: 700px;
+    background-color: rgb(51, 44, 181);
+    position: absolute;
+    top: 90%;
+    left: 36%;
+    border-radius: 10px;
+}
+.rectangle10 {
+    height: 125px;
+    width: 700px;
+    background-color: rgb(181, 122, 44);
+    position: absolute;
+    top: 103%;
+    left: 31%;
+    border-radius: 10px;
+}

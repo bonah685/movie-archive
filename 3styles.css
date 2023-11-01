@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+   
+} 
+.container{
+    padding: 0px;
+    height: 320vh;
+    background-image: url(quintn\ background.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+    display: flex;
+    
+}
+.rectangle1 {
+    padding-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    justify-content: center;
+    bottom: 0%;
+    margin-left: 275px;
+    display: flex;
+    z-index: 0;
+}
+.title1 {
+    height: 500px;
+    width: 1000px;
+    background-image: url(kill\ bill.png);
+    background-color: transparent;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 5px;
+    left: -7%;
+    z-index: 2;
+
+}
+.cd {
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    background-image: url(cd-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position: absolute;
+   left: 23%;
+    top: 43%;
+
+}
+.cd:hover {
+    transform: rotate(50deg);
+}
+.photo1 {
+    height: 400px;
+    width: 600px;
+    background-image: url(kill\ bill\ photo.webp);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    border: 5px solid #ce9f13;
+    z-index: 1;
+    display: flex;
+}
+.textbox {
+    height: 300px;
+    width: 500px;
+    background-color: transparent;
+    top: 62%;
+    z-index: 9;
+    right: 52%;
+    position: absolute;
+    font-size: 32px;
+    font-family: my font;
+    color: #ce9f13;
+}
+@font-face {
+    font-family: my font;
+    src: url(coolvetica/coolvetica\ rg\ it.otf);
+}
+
+.comment {
+    height: 300px;
+    width: 200px;
+    background-color: transparent;
+    top: 30%;
+    z-index: 9;
+    right: 20%;
+    position: absolute;
+    font-size: 64px;
+    font-family: my fonts;
+    color: #951915;
+}
+@font-face {
+    font-family: my fonts;
+    src: url(mexcellent/mexcellent\ rg.otf);
+}
+.rectangle2 {
+    padding-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    bottom: -100%;
+    margin-left: 275px;
+    display: flex;
+    
+}
+.title2 {
+    height: 800px;
+    width: 1000px;
+    background-image: url(dogs.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: 75%;
+    right:0%;
+    z-index: 4;
+    display: flex;
+}
+.photo2 {
+    height: 400px;
+    width: 600px;
+    background-image: url(dogimage.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    z-index: 3;
+    border: 5px solid #b00f0f;
+    top: 124%;
+    right: 22%;
+    display: flex;
+
+}
+.textbox2 {
+    height: 300px;
+    width: 500px;
+    background-color: transparent;
+    top: 62%;
+    z-index: 9;
+    right: 52%;
+    position: absolute;
+    font-size: 32px;
+    font-family: my font;
+    color: #ce9f13;
+}
+.subhead { 
+    height: 400px;
+    width: 600px;
+    background-image: url(gun.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    top: 11%;
+    z-index: 5;
+    right: 63%;
+    transform: rotate(-22deg);
+    display: flex;
+
+}
+.rectangle3 {
+    padding-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    bottom: -200%;
+    margin-left: 275px;
+    display: flex;
+    
+}
+.title3 {
+    height: 700px;
+    width: 1000px;
+    background-image: url(pulpfiction.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    bottom: -164%;
+    left: -5%;
+    z-index: 7;
+    display: flex;
+}
+.photo3 {
+    height: 400px;
+    width: 550px;
+    background-image: url(pulp\ photo.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    border: 5px solid #ce9f13;
+    z-index: 6;
+    bottom: -160%;
+    left: 38%;
+    display: flex;
+}
+.button-rate1 {
+    height: 100px;
+    width: 300px;
+    background-image: url(5star-removebg-preview.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    background-color: transparent;
+    z-index: 9;
+    display: flex;
+    left: 49%;
+    top: 55%;
+}
+.button-rate1:hover {
+    transform: scale(1.2);
+}
+.button-rate2 {
+    height: 175px;
+    width: 200px;
+    background-image: url(star.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    background-color: transparent;
+    top: 158%;
+    z-index: 9; 
+    right: 45%;}
+.button-rate2:hover{
+    transform: scale(1.2);
+}
+.button-rate3  {
+    height: 60px;
+    width: 195px;
+    background-image: url(41:2.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    background-color: transparent;
+    bottom: -166%;
+    right:31%;
+}
