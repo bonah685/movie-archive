@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+
+/* Talk about floats, use text to demonstrate
+    • float left, right, clear */
+
+/* Talk about position properties */
+/* Position properties
+    • Position relative
+    • Position absolute with top, with top and left set to 0 
+    • Position fixed with top and left set to 0 */
+    
+h1{
+        background-color: transparent;
+        font-size: 48px;
+    }
+
+    
+    
+.container{
+    background-image: url(background.jpeg);
+    background-repeat: none;
+    padding: 10px;
+    height: 100vh;
+   
+}
+
+
+.box1{
+    
+    height: 1000px;
+    width: 1500px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    background-color: transparent;
+    background-image: url(tv-removebg.png);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+   
+    
+}
+
+/* Show position absolute here with top and left set to 0: */
+
+
+/* Show position fixed here: */
+
+
+
+
+.box4{
+    height: 580px;
+    width: 810px;
+    position: absolute;
+    bottom: 24%;
+    left: 27%;
+    border-radius: 30px;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+    font-family: monospace;
+    z-index: 4;
+    text-align: center;
+
+    
+}
+video{
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+    border-radius: 20px; /* Rounded corners for the video */
+    align-items: center;
+    position:absolute;
+    right: 0%;
+    box-shadow: 0px 0px 30px 5px #f4f5f2;
+  }
+    
+
+   
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    left: 27%;
+    top: 0%;
+    width: 815px;
+    height: 520px;
+    border-radius: 20px; 
+    z-index: 6;
+    letter-spacing: 10px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+  /* Hover effect */
+  .button:hover {
+    color: #bfbc00;
+  }
+
+
+  
