@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(checkrd\ background.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+    height: 300vh;
+}
+.container{
+    padding: 10px;
+    height: 100vh;
+}
+.rectangle {
+        padding-top: 5px;
+        margin-top:50px;
+        height: 90vh;
+        width: 1200px;
+        background-color: rgb(20, 26, 133);
+        position: absolute;
+        justify-content: center;
+        top: 0%;
+        margin-left: 275px;
+        display: flex;
+        z-index: 1;}
+.title {
+    height: 600px;
+    width: 900px;
+    background-image: url(mrfox_title-removebg-preview.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: -10%;
+    z-index: 3;
+    left: 13%;
+}
+.button-rate { 
+    height: 200px;
+    width: 300px;
+    background-image: url(black-stars.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    top: 47%;
+    z-index: 8;
+    right: 34%;
+
+}
+.button-rate:hover {
+    transform: scale(1.2);
+}
+.textbox {
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+    top: 37%;
+    z-index: 9;
+    left: 22%; 
+    position: absolute;
+    font-size: 32px;
+    font-family: my font;
+}
+.blob {
+    height: 800px;
+    width: 800px;
+    background-color: transparent;
+    background-image: url(blob1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 58%;
+    z-index: 11;
+    left: -5%; 
+    position: absolute;
+}
+@font-face {
+    font-family: my font;
+    src: url(gnuolane-free/gnuolane\ rg.otf);
+}
+.subhead {
+    height: 400px;
+    width: 600px;
+    background-color: transparent;
+    z-index: 10;
+    position: absolute;
+    font-size: 56px;
+    font-family: the font;
+    right: 33%;
+    top: 76%;
+    text-align: right;
+    
+
+}
+@font-face {
+    font-family: the font;
+    src: url(pricedown/pricedown\ bl.otf);
+}
+.fox {
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    background-image: url(fox_animal-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 12;
+    position: absolute;
+    right: 5%;
+    top: 55%;
+   
+    
+
+}
+
+.image {
+    height: 400px;
+    width: 600px;
+    background-image: url(fox\ photo.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    z-index: 2;
+    border: 5px solid #f1f2f4;
+    top: 16%;
+   right: 18%;
+}
+.rectangle2 {
+    padding-top: 5px;
+    margin-top:50px;
+    height: 90vh;
+    width: 1200px;
+    background-color: rgb(20, 26, 133); 
+    position: absolute;
+    justify-content: center;
+    top: 100vh;
+    margin-left: 275px;}
+    .title2 {
+        height: 600px;
+        width: 900px;
+        background-image: url(atlantic_title-removebg-preview.png);
+        background-color: transparent;
+        position: absolute;
+        background-size: cover; /* Cover the entire viewport */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        top: 92%;
+        right: 6%;
+        z-index: 5;}
+        .photo2 {
+            z-index: 4;
+            height: 300px;
+            width: 500px;
+            background-image: url(life\ photo.jpeg);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            position: absolute;
+            border: 5px solid #0b6f6c;
+            top: 127%;
+            right: 15%;
+        }
+        .button-rate2 {
+            height: 200px;
+            width: 300px;
+            background-image: url(rate2.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            position: absolute;
+            top: 147% ;
+            z-index: 8;
+            right: 17%;
+        }
+        .button-rate2:hover {
+            transform: scale(1.2);
+        }
+        .textbox2 {
+            height: 100px;
+            width: 1050px;
+            background-color: transparent;
+            top: 173%;
+            z-index: 10;
+            left: 22%; 
+            position: absolute;
+            font-size: 32px;
+            font-family: my font;
+            
+        
+        }
+    .shark {
+        height: 500px;
+        width: 900px;
+        background-color: transparent;
+        background-image: url(shark-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 13;
+        top: 147%;
+        left: 3%; 
+    }
+    .turtle {
+        height: 300px;
+        width: 500px;
+        background-color: transparent;
+        background-image: url(turtle-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 13;
+        top: 120%;
+        left: 8%; 
+
+    }
+        .rectangle3 {
+            padding-top: 5px;
+            margin-top:50px;
+            height: 90vh;
+            width: 1200px;
+            background-color: rgb(20, 26, 133); 
+            position: absolute;
+            justify-content: center;
+            top: 200vh;
+            margin-left: 275px;
+        }
+        .title3 {
+            height: 600px;
+            width: 900px;
+            background-image: url(french_title-removebg-preview.png);
+            background-color: transparent;
+            position: absolute;
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            top: 190%;
+            z-index: 7;
+            right: 5%;
+        }
+        .photo3 {
+            height: 400px;
+            width: 600px;
+            background-image: url(dispach\ photo.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            position: absolute;
+            z-index: 6;
+            border: 5px solid #fefefe;
+            top: 222%;
+            left: 20%;
+            
+        }
+        .button-rate3 { 
+            height: 200px;
+            width: 300px;
+            background-image: url(black-stars.png);
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            position: absolute;
+            top: 200%;
+            z-index: 8;
+            left: 28%;
+
+            }
+            .button-rate3:hover {
+                transform: scale(1.2);
+            }
+        .textbox3 {
+            height: 200px;
+            width: 600px;
+            background-color: transparent;
+            top: 265%;
+            z-index: 10;
+            left: 20%; 
+            position: absolute;
+            font-size: 32px;
+            font-family: my font;
+        }
+        .ipod {
+            height: 415px;
+            width: 550px;
+            background-color: transparent;
+            background-image: url(ipodd.png);
+            background-repeat: no-repeat;
+            top: 240%;
+            background-size: cover;
+            z-index: 10;
+            right: 0%;
+            position: absolute;
+        }
+            

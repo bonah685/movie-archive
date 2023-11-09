@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+   
+} 
+.container { 
+    padding: 0px;
+    height: 300vh;
+    background-image: url(bows.webp);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+}
+
+.rectangle {
+        padding-top: 5px;
+        margin-top:50px;
+        height: 90vh;
+        width: 1200px;
+        background-color: rgb(255, 226, 244);
+        position: absolute;
+        justify-content: center;
+        top: 0%;
+        margin-left: 275px;
+        display: flex;
+        z-index: 1;}
+
+.title1 {
+    height: 600px;
+    width: 900px;
+    background-image: url(virgin-removebg-preview.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: -10%;
+    z-index: 3;
+    left: 3%;
+}
+.photo1 {
+    height: 400px;
+    width: 600px;
+    background-image: url(the-virgin-suicides-1.avif);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    z-index: 2;
+    border: 5px solid #d0ca27;
+    top: 20%;
+    left: 30%;
+}
+.rate1 { 
+    height: 300px;
+    width: 400px;
+    background-image: url(star.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    top: 45%;
+    z-index: 8;
+    right: 35%;
+
+}
+.rectangle2 {
+        padding-top: 5px;
+        margin-top:50px;
+        height: 90vh;
+        width: 1200px;
+        background-color: rgb(255, 226, 244);
+        position: absolute;
+        justify-content: center;
+        top: 100vh;
+        margin-left: 275px;
+}
+.title2 {
+    height: 600px;
+    width: 900px;
+    background-image: url(lost-removebg-preview.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: 95%;
+    right: 5%;
+    z-index: 5;
+}
+.rate2 { 
+    height: 300px;
+    width: 400px;
+    background-image: url(star.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+   
+}
+.photo2 {
+    z-index: 4;
+    height: 300px;
+    width: 550px;
+    background-image: url(lost\ in\ translation.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    border: 5px solid #e3a8c1;
+    top: 115%;
+    right: 45%;
+
+}
+.rectangle3 {
+    padding-top: 5px;
+    margin-top:50px;
+    height: 90vh;
+    width: 1200px;
+    background-color: rgb(255, 226, 244);
+    position: absolute;
+    justify-content: center;
+    top: 200vh;
+    margin-left: 275px;
+}
+.title3 {
+    height: 600px;
+    width: 900px;
+    background-image: url(marie-removebg-preview.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: 199%;
+    z-index: 7;
+    left: 5%;
+}
+
+.rate3 { 
+    height: 300px;
+    width: 400px;
+    background-image: url(3star.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-color: transparent;
+    position: absolute;
+    top: 265%;
+    z-index: 10;
+    right: 40%;
+}
+.photo3 {
+    height: 400px;
+    width: 600px;
+    background-image: url(marie-antoinette-couch.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    z-index: 6;
+    border: 5px solid #d0ca27;
+    top: 232%;
+    left: 25%;
+    
+}

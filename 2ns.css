@@ -1,10 +1,12 @@
 * {
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
     background-color: transparent;
     box-sizing: border-box;
 }
 body{
+    border-color: azure;
+    border: 20px;
     background-image: url(twinkle.gif);
     background-size: cover; /* Cover the entire viewport */
     background-repeat: no-repeat; /* Prevent repeating the image */
@@ -69,7 +71,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(cohen\ bros.jpg);
+    background-image: url(francis\ ford.jpg);
     background-color: rgb(206, 96, 184);
     position: absolute;
     border-radius: 10px;
@@ -81,7 +83,8 @@ body{
 .rectangle7 {
     height: 125px;
     width: 700px;
-    background-image: url(francis.jpg);
+   
+    background-image: url(cohenbrosss.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,6 +97,10 @@ body{
 .rectangle8 {
     height: 125px;
     width: 700px;
+    background-image: url(grettaaa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(62, 5, 84);
     position: absolute;
     border-radius: 10px;
